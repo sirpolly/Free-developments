@@ -72,12 +72,11 @@ def print_weather(weather_data):
 
 
 def main():
-    api_key = "afb541e1af4ed79ffe4a5d73baf53203"  # Замените на ваш API ключ
-    city = "Санкт-Петербург"  # Установите город на Санкт-Петербург
+    api_key = "afb541e1af4ed79ffe4a5d73baf53203"  # API ключ
+    city = "Санкт-Петербург"  # Установить город Санкт-Петербург
     weather_data = get_weather(city, api_key)
     print_weather(weather_data)
 
 
 if __name__ == "__main__":
     main()
-    
