@@ -27,4 +27,4 @@
 
 
 ## Или просто спросите
-[Хоть на Марсе](Free-developments/Weather.jpg)
+[Хоть на Марсе](Weather.jpg)
