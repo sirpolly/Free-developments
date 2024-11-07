@@ -91,7 +91,7 @@ class WeatherApp(App):
             halign="center",  # Выравнивание по центру
             valign="middle",  # Вертикальное выравнивание по центру
             text_size=(400, None),
-            padding=(20, 20),  # Добавьте отступы вокруг текста
+            padding=(20, 300),  # Добавьте отступы вокруг текста
         )
         label.bind(size=label.setter("size"))  # Динамическое изменение размера
         label.bind(texture_size=label.setter("size"))  # Применение к текстуре
